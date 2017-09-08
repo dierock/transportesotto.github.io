@@ -1726,6 +1726,15 @@ body {
 .cid-quEgJM0Deb .mbr-section-subtitle {
   font-style: italic;
 }
+.cid-quEgJM0Deb H1 {
+  color: #cccccc;
+}
+.cid-quEgJM0Deb H3 {
+  color: #cccccc;
+}
+.cid-quEgJM0Deb P {
+  color: #cccccc;
+}
 .cid-quEo5BFu9F {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -1891,7 +1900,7 @@ body {
 .cid-quFB2qry4h {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #f9f9f9;
+  background-color: #640000;
 }
 .cid-quFB2qry4h .mbr-section-subtitle {
   color: #767676;
@@ -1923,7 +1932,10 @@ body {
   font-size: 17px;
 }
 .cid-quFB2qry4h .team-item .item-caption {
-  background: #efefef;
+  background: #787878;
+}
+.cid-quFB2qry4h H2 {
+  color: #cccccc;
 }
 .cid-quDN5YUPcp {
   padding-top: 60px;
