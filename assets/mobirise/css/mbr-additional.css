@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Rammetto+One:400);
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
 @import url(https://fonts.googleapis.com/css?family=Palanquin+Dark:400,500,600,700);
 
@@ -21,11 +22,11 @@ body {
   line-height: 1.6;
 }
 .display-1 {
-  font-family: 'Rubik', sans-serif;
-  font-size: 4.25rem;
+  font-family: 'Rammetto One', display;
+  font-size: 3rem;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 6.8rem;
+  font-size: 4.8rem;
 }
 .display-2 {
   font-family: 'Rubik', sans-serif;
@@ -50,10 +51,10 @@ body {
 }
 .display-7 {
   font-family: 'Rubik', sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.6rem;
+  font-size: 1.92rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -62,9 +63,9 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 3.4rem;
-    font-size: calc( 2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.4rem;
+    font-size: calc( 1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 2.24rem;
@@ -623,13 +624,13 @@ a:hover {
   box-shadow: none;
   color: #565656;
   font-family: 'Rubik', sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.43;
   min-height: 3.5em;
   padding: 1.07em .5em;
 }
 .form-control > .mbr-iconfont {
-  font-size: 1.6rem;
+  font-size: 1.92rem;
 }
 .form-control,
 .form-control:focus {
@@ -1715,7 +1716,7 @@ body {
   }
 }
 .cid-quEgJM0Deb {
-  background-color: #ffffff;
+  background-color: #cccccc;
 }
 .cid-quEgJM0Deb h1 {
   color: #616161;
@@ -1728,67 +1729,77 @@ body {
 .cid-quEgJM0Deb .mbr-section-subtitle {
   font-style: italic;
 }
-.cid-quE28lH0Gx {
-  padding-top: 75px;
+.cid-quEo5BFu9F {
+  padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #ffffff;
+  background-color: #f9f9f9;
 }
-.cid-quE28lH0Gx .mbr-section-subtitle {
-  color: #767676;
+.cid-quEo5BFu9F h2 {
+  text-align: center;
+}
+.cid-quEo5BFu9F h3 {
+  text-align: center;
   font-weight: 300;
 }
-.cid-quE28lH0Gx .mbr-content-text {
+.cid-quEo5BFu9F p {
   color: #767676;
 }
-.cid-quE28lH0Gx .card {
-  word-wrap: break-word;
-  flex-shrink: 0;
-  -webkit-flex-shrink: 0;
-}
-.cid-quE28lH0Gx .mbr-iconfont {
-  font-size: 80px;
-  color: #149dcc;
-}
-.cid-quE28lH0Gx .cards-container {
-  display: flex;
-  flex-direction: row;
-  -webkit-flex-direction: row;
-  flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  justify-content: center;
-  -webkit-justify-content: center;
-  word-break: break-word;
-}
-.cid-quE28lH0Gx .media-block {
-  flex-shrink: 0;
-  -webkit-flex-shrink: 0;
-  padding-left: 2rem;
-}
-.cid-quE28lH0Gx .cards-block {
+.cid-quEo5BFu9F .block-content {
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
   flex-basis: 100%;
   -webkit-flex-basis: 100%;
 }
-.cid-quE28lH0Gx .card-img {
-  display: -webkit-flex;
-  align-items: center;
-  -webkit-align-items: center;
-  flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
+.cid-quEo5BFu9F .mbr-figure {
+  align-self: flex-start;
+  -webkit-align-self: flex-start;
+  flex-shrink: 0;
+  -webkit-flex-shrink: 0;
 }
-@media (max-width: 991px) {
-  .cid-quE28lH0Gx .media-block {
-    flex-basis: 100%;
-    -webkit-flex-basis: 100%;
-    padding-left: 0;
-    padding-bottom: 2rem;
+.cid-quEo5BFu9F .media-container-row {
+  word-wrap: break-word;
+  word-break: break-word;
+}
+.cid-quEo5BFu9F .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-quEo5BFu9F .card-title {
+  font-weight: 500;
+}
+.cid-quEo5BFu9F .card-img {
+  text-align: inherit;
+}
+.cid-quEo5BFu9F .card-img span {
+  font-size: 48px;
+  color: #707070;
+}
+@media (min-width: 992px) {
+  .cid-quEo5BFu9F .mbr-figure {
+    padding-right: 2rem;
+    padding-left: 2rem;
   }
 }
-.cid-quE28lH0Gx .mbr-section-title {
-  color: #0f7699;
-  text-align: right;
+@media (max-width: 991px) {
+  .cid-quEo5BFu9F .mbr-figure {
+    margin-bottom: 2rem;
+  }
 }
-.cid-quE28lH0Gx .count {
-  text-align: left;
+@media (max-width: 991px) and (min-width: 768px) {
+  .cid-quEo5BFu9F .mbr-figure {
+    padding-right: 0;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  .cid-quEo5BFu9F .block-content {
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    text-align: center;
+  }
+  .cid-quEo5BFu9F .block-content .card {
+    flex-basis: 100%;
+    -webkit-flex-basis: 100%;
+  }
 }
 .cid-quDN5YUPcp {
   padding-top: 60px;
