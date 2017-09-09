@@ -51,10 +51,10 @@ body {
 }
 .display-7 {
   font-family: 'Rubik', sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.44rem;
+  font-size: 1.28rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -624,13 +624,13 @@ a:hover {
   box-shadow: none;
   color: #565656;
   font-family: 'Rubik', sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   line-height: 1.43;
   min-height: 3.5em;
   padding: 1.07em .5em;
 }
 .form-control > .mbr-iconfont {
-  font-size: 1.44rem;
+  font-size: 1.28rem;
 }
 .form-control,
 .form-control:focus {
@@ -1727,13 +1727,13 @@ body {
   font-style: italic;
 }
 .cid-quEgJM0Deb H1 {
-  color: #cccccc;
+  color: #ffffff;
 }
 .cid-quEgJM0Deb H3 {
-  color: #cccccc;
+  color: #ffffff;
 }
 .cid-quEgJM0Deb P {
-  color: #cccccc;
+  color: #ffffff;
 }
 .cid-quEo5BFu9F {
   padding-top: 90px;
@@ -1832,7 +1832,7 @@ body {
   text-align: left;
 }
 .cid-quEvZQI6eW .mbr-text {
-  color: #767676;
+  color: #cccccc;
   text-align: right;
 }
 .cid-quEvZQI6eW .card-wrapper {
