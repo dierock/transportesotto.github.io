@@ -683,7 +683,7 @@
             }
           },
           "_name": "gallery3",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#c1c1c1\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"0\"></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#c1c1c1\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\"></div>\n    </div>\n\n</section>",
           "_cid": "quFykPl28K",
           "_anchor": "gallery3-11",
           "_protectedParams": [
@@ -697,23 +697,23 @@
             "gallery": [
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/2017-8-5-20-22-13-322326.jpg",
-                "playVideo": true,
+                "videoPreview": "@PROJECT_PATH@/2017-8-5_20-22-13-322326.jpg",
+                "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=0cLPO4YZUb8",
-                "image": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
+                "image": "@PROJECT_PATH@/assets/images/21427420-2003569799925010-4557015162137909971-o-1680x1050.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/21427420-2003569799925010-4557015162137909971-o-1680x1050-800x500.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Responsive",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/19023374-1931043487177642-45543001393907406-o-1-1024x768.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/19023374-1931043487177642-45543001393907406-o-1-1024x768-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/21457622-2003569233258400-6795074430267662346-o-1680x1050.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/21457622-2003569233258400-6795074430267662346-o-1680x1050-800x500.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
@@ -724,8 +724,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/19238141-1935793116702679-7445947967322851349-o-1680x1050.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/19238141-1935793116702679-7445947967322851349-o-1680x1050-800x500.jpg",
+                "image": "@PROJECT_PATH@/assets/images/21543992-2003569383258385-7538446212116271662-o-1680x1050.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/21543992-2003569383258385-7538446212116271662-o-1680x1050-800x500.jpg",
                 "alt": "Comunidad",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
@@ -748,8 +748,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/20247906-1954866164795374-4453843002711841463-o-1680x1050.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/20247906-1954866164795374-4453843002711841463-o-1680x1050-800x500.jpg",
+                "image": "@PROJECT_PATH@/assets/images/21551800-2003569653258358-7471181984407354605-o-1680x1050.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/21551800-2003569653258358-7471181984407354605-o-1680x1050-800x500.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
@@ -760,12 +760,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/21122657-1983692308579426-8768953462906457285-o-1366x768.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/21122657-1983692308579426-8768953462906457285-o-1366x768-800x449.jpg",
+                "image": "@PROJECT_PATH@/assets/images/21551852-2003569849925005-6379854265740940553-o-1680x1050.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/21551852-2003569849925005-6379854265740940553-o-1680x1050-800x500.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Responsive",
